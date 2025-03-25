@@ -13,8 +13,8 @@
         <?php         
             $numero = $_GET["numero"] ?? "Número Inválido";
             echo "O número escolhido foi " . $numero . "<br>";
-            echo "Seu antecessor é " . $numero-- . "<br>";
-            echo "Seu sucessor é " . $numero++ . "<br>";
+            echo "Seu antecessor é " . $numero-1 . "<br>";
+            echo "Seu sucessor é " . $numero+1 . "<br>";
         ?>
         <a href="http://localhost/cursophp/ex005/"><button type="button"><- Voltar</button></a>
     </main>
