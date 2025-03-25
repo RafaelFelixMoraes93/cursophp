@@ -11,9 +11,9 @@
         <h1>Trabalhando com números aleatórios</h1>
         <p>Gerando um número aleatório entre 0 e 100...</p>
         <?php
-            echo "O valor gerado foi " . random_int(0, 100);            
+            echo "O valor gerado foi " . mt_rand(0, 100);            
         ?>
-        <a href="http://localhost/cursophp/ex006/"><button type="button">Gerar outro</button></a>
+        <a href="http://localhost/cursophp/desafios/numero%20aleatorio/"><button type="button">Gerar outro</button></a>
         
     </section>    
 </body>
