@@ -17,7 +17,7 @@
             echo "• A parte inteira do número é <strong>" . $valorinteiro . "</strong>." . "<br>";
             echo "• A parte fracionária do número é <strong>0," . $valorfracional . "</strong>.";
         ?>
-        <a href="http://localhost/cursophp/ex008/"><button type="button">Voltar</button></a>
+        <a href="http://localhost/cursophp/desafios/analisar%20numero%20real/"><button type="button">Voltar</button></a>
     </section>
 </body>
 </html>
