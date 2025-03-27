@@ -17,7 +17,7 @@
             echo "<h1><strong>Conversor de Moedas v1.0</strong></h1>" . "<br>";
             
             echo "Seus <strong>" . numfmt_format_currency($padrao, $valor, "BRL") . "</strong> equivalem a <strong>" . numfmt_format_currency($padrao, $dolar, "USD" . "</strong>");
-            echo "<br><br><strong>Cotação fixa de 5.75</strong> informada diretamente no código."
+            echo "<br><br><strong>Cotação fixa de 5.75</strong> informada diretamente no código.<br><br>"
         ?>        
         <a href="http://localhost/cursophp/desafios/conversor%20de%20moedas/"><button type="button">Voltar</button></a>  
     </main>   
