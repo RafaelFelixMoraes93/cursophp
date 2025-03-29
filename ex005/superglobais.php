@@ -12,6 +12,9 @@
             <?php
                 setcookie("dia-da-semana", "SEGUNDA", time() + 3600);
 
+                session_start();
+                $_SESSION["teste"] = "FUNCIONOU!";
+
                 echo "<h1>Superglobal GET</h1>";
                 var_dump($_GET);
 
@@ -23,6 +26,9 @@
 
                 echo "<h1>Superglobal COOKIE</h1>";
                 var_dump($_COOKIE);
+
+                echo "<h1>Superglobal SEESSION</h1>";
+                var_dump($_SESSION);
             ?>
         </pre>
     </main>
