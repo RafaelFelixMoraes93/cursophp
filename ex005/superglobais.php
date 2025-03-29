@@ -9,7 +9,9 @@
 <body>
     <main>
         <pre>
-            <?php 
+            <?php
+                setcookie("dia-da-semana", "SEGUNDA", time() + 3600);
+
                 echo "<h1>Superglobal GET</h1>";
                 var_dump($_GET);
 
@@ -18,6 +20,9 @@
 
                 echo "<h1>Superglobal REQUEST</h1>";
                 var_dump($_REQUEST);
+
+                echo "<h1>Superglobal COOKIE</h1>";
+                var_dump($_COOKIE);
             ?>
         </pre>
     </main>
