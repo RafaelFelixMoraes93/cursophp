@@ -29,6 +29,9 @@
 
                 echo "<h1>Superglobal SEESSION</h1>";
                 var_dump($_SESSION);
+
+                echo "<h1>Superglobal SERVER</h1>";
+                var_dump($_SERVER);
             ?>
         </pre>
     </main>
