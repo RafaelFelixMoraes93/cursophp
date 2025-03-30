@@ -16,7 +16,7 @@
             $sobrenome = $_GET["sobrenome"] ?? "desconhecido";
             echo "<p>É um prazer te conhecer, <strong>$nome $sobrenome</strong>! Este é o meu site!</p>"            
         ?>
-        <p><a href="http://localhost/cursophp/ex004/">Voltar a página inicial</a></p>
+        <p><a href="http://localhost/cursophp/010%20-%20formulario/">Voltar a página inicial</a></p>
     </main>
     
 </body>
