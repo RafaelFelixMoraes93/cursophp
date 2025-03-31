@@ -7,7 +7,10 @@
 </head>
 <body>
     <main>
-        <?php 
+        <?php
+            // ltrim remove os espaços da esquerda.
+            // rtrim remove os espaços do final.
+
             $texto = "   José Maria da Silva    ";
             $novotexto = trim($texto);
 
