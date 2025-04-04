@@ -9,7 +9,7 @@
     <?php 
         // Observação, é sensitive case
         $frase = "Estou aprendendo PHP";
-        $pos = strpos($frase, "php");
+        $pos = strpos($frase, "php"); // caso coloque maiúsculo irá funcionar normalmente
         echo "$frase <br> A string foi encontrada na posição $pos<br>";
 
         // Nesse caso o "i" adicionado significa ignore case
