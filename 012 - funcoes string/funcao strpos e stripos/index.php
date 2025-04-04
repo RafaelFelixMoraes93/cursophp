@@ -9,8 +9,12 @@
     <?php 
         // Observação, é sensitive case
         $frase = "Estou aprendendo PHP";
-        $pos = strpos($frase, "PHP");
-        echo "$frase <br> A string foi encontrada na posição $pos";
+        $pos = strpos($frase, "php");
+        echo "$frase <br> A string foi encontrada na posição $pos<br>";
+
+        // Nesse caso o "i" adicionado significa ignore case
+        $posicao = stripos($frase, "php");
+        echo "$frase <br> A string foi encontrada na posição $posicao";
     ?>
     
 </body>
