@@ -7,6 +7,7 @@
 </head>
 <body>
     <?php
+        // Focada para o programador, usada para fazer testes.
         $x[0] = 4;
         $x[1] = 3;
         $x[2] = 8;
