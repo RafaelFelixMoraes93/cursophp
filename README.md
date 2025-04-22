@@ -61,9 +61,6 @@ Fique à vontade para sugerir melhorias ou adicionar novos conteúdos! Para cont
 4. Envie um push para a branch (`git push origin minha-feature`)
 5. Abra um Pull Request
 
-## 📜 Licença
+## 📄 Licença
 
-Este projeto está disponível para uso educacional e pode ser modificado livremente.
-
----
-Feito por [RafaelFelixMoraes93](https://github.com/RafaelFelixMoraes93) 🚀
+Este projeto está licenciado sob a licença MIT.
